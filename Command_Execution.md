@@ -24,3 +24,7 @@ Siempre es mejor, restringir los input y las expresiones regulares para mayor se
 
 ### RESTRINGUIR LOS COMANDOS PERMITIDOS
 
+Intentaremos costruir todos o casi todos los comandos de terminal usando strings literales, cuando el input sea necesario para el usuario, añadiremos valores permitidos o enumeraremos todas las condiciones.
+
+## CODE REVIEWS
+
