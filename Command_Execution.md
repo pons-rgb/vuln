@@ -28,3 +28,12 @@ Intentaremos costruir todos o casi todos los comandos de terminal usando strings
 
 ## CODE REVIEWS
 
+Siempre checkear todas las vulnerabilidad que el codigo pueda tener en el proceso. Las vulnerabilidades aveces estan mucho tiempo y no nos damos cuenta.
+
+## INICIAR CON PERMISOS RESTRINGUIDOS
+
+Es una buena practica que el servidor processe solo con los permisos que la funcion requiera, limitando el impaacto de los comandos y la injección.
+
+Debemos estar seguros que los procesos web solo tienen acceso a los directorios que necesitan, y igual con lo que se pueda ejecutar, Considera iniciar el proceso como una jaula como si fuera "UNIX". Esto hace que limite mucho al atacante malicio o escalar privilegios.
+
+
